@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica Neue' , Sans-serif;
+    font-family: 'Helvetica Neue', Sans-serif, serif;
 }
 *,
 *:after,
@@ -183,6 +183,8 @@ body {
 }
 
 .map {
+    width: 50%;
+
     position: absolute;
     top: -130px;
     left: 500px;
@@ -246,6 +248,7 @@ body {
 
 .statistic {
     background: linear-gradient(to right,#c42400,#f23005 );
+    z-index: 100;
 }
 .stat {
     padding: 90px 0;
@@ -256,6 +259,8 @@ body {
 
     display: flex;
     justify-content: space-around;
+
+
 }
 .stat_num {
     font-size: 50px;
@@ -315,7 +320,7 @@ body {
     .map {
         position: absolute;
         top: 300px;
-        left: 0px;
+        left: 0;
         width: 100%;
 }
     .block1 {
@@ -390,7 +395,7 @@ body {
         align-items: center;
     }
     .lorem_text {
-        padding-left: 0px;
+        padding-left: 0;
     }
     .footer_container {
         width: 100%;
