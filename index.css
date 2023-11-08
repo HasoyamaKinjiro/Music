@@ -24,7 +24,7 @@ body {
     min-height: 820px;
     position: relative;
 
-    background: url("Fon_intro.jpg") no-repeat;
+    background: url("Images/Fon_intro.jpg") no-repeat;
     background-size: cover;
 }
 .intro_inner {
@@ -264,7 +264,7 @@ body {
 /* Lorem */
 
 .lorem {
-    background: url("Gitare_02.jpg") no-repeat;
+    background: url("Images/Gitare_02.jpg") no-repeat;
     background-size: cover;
 }
 .lorem_block {
